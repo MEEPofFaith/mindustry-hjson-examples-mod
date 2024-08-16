@@ -1,0 +1,38 @@
+type: GenericCrafter
+size: 2
+health: 250
+
+//Time to craft in ticks. One tick is 1/60 a sec. 93 / 60 = 1.55 sec
+craftTime: 93
+
+//Information on what this consumes
+consumes: {
+    items: {
+        items: [ //Consumes 2 copper and 3 lead to craft
+            copper/2
+            lead/3
+        ]
+    }
+    liquids: [ //Consumes 0.1 slag/tick and 0.2 water/tick. (0.1 * 60 = 6 slag/sec, 0.2 * 60 = 12 water/sec)
+        slag/0.1
+        water/0.2
+    ]
+    power: 2 //Consumes 2 power/tick. (2 * 60 = 120 power/sec)
+}
+
+//Produces 2 titanium per craft.
+outputItem: titanium/1
+
+//Build cost
+requirements: [
+    copper/1000
+    lead/1234
+    thorium/1
+    beryllium/69
+]
+
+//Goes in the crafting tab.
+category: crafting
+
+//Attach to surge smelter in the tech tree.
+research: surge-smelter
