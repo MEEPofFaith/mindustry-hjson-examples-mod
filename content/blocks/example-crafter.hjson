@@ -21,7 +21,7 @@ consumes: {
 }
 
 //Produces 2 titanium per craft.
-outputItem: titanium/1
+outputItem: titanium/2
 
 //Build cost
 requirements: [
