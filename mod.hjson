@@ -1,0 +1,23 @@
+//The mod's internal name. Used as an identifier for this mod to prevent conflicts with other mods.
+name: example-name
+
+//The mod's name shown in the mod menu and browser.
+displayName: Example Mod
+
+//A subtitle displayed beneath the display name in the mod menu.
+subtitle: Cool Text
+
+//The description of the mod.
+description: A mod full of hjson examples to hopefully answer most FAQs.
+
+//Self-explanatory
+author: You
+
+//Version of the mod.
+version: 1
+
+//The minimum required version of Mindustry required to use this mod.
+minGameVersion: 146
+
+//The repository of this mod. Used for the reinstall button.
+repo: MEEPofFaith/mindustry-hjson-examples-mod
